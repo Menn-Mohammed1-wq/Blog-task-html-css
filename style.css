@@ -227,8 +227,7 @@ header {
 
 /* body */
 body {
-    background-image: linear-gradient(180deg, #000000, #071021);
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(180deg, #000000, #071021);
 }
 
 /* team */
@@ -544,4 +543,71 @@ footer {
     border: solid rgb(72, 69, 69);
     border: rgba(0, 0, 0, 0.5);
 }
-
+.form-padge{
+    max-width: 600px;
+    background-color: #020111;
+    margin: 100px auto;
+    border: none;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 6 20px rgba(45, 25, 220, 0.872);
+}
+.form-padge h2{
+     color: #1f9fff;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form input,form select,form textarea{
+    width: 100%;
+    padding: 10px;
+    border: solid rgb(6, 0, 42);
+    background-color: var(--bg-card);
+    border-radius: 6px; 
+}
+label{
+    display: block;
+    font-weight: 600px;
+    margin-top: 15px;
+}
+fieldset{
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid whitesmoke;
+}
+legend{
+    color: #ffffff;
+    font-weight: bold;
+}
+fieldset label{
+    display: inline-block;
+}
+input[type="checkbox"]
+input[type="radio"]{
+    width: auto;
+    margin-right: 5px;
+}
+form button{
+    width: 100%;
+    border: none;
+      color: rgb(253, 254, 255);
+    text-decoration: none;
+    padding: 5px 15px;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: rgb(198, 136, 23);
+    margin: 12px;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+.select{
+    background-color: #1f9fff;
+    color: #fff;
+}
+.select label{
+    color: #fff;
+}
+p{
+    color: white;
+}
